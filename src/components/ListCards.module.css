@@ -1,0 +1,14 @@
+.ListCards{
+    background-color:rgb(31, 31, 56);
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+h1{
+    width: 50%;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

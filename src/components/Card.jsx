@@ -1,7 +1,8 @@
 import React from 'react';
-import  styles from "./Card.module.css";
+import styles from "./Card.module.css";
+
 const Card = ({img, title, subtitle, desc}) => {
-    return (
+    return (    
         <div className={styles.card}>
             <img src={img} alt=''/>
             <div className={styles.cardInfo}>
@@ -12,5 +13,6 @@ const Card = ({img, title, subtitle, desc}) => {
         </div>
     );
 }
+
 
 export default Card;
